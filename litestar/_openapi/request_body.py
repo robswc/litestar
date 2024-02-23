@@ -4,7 +4,6 @@ from typing import TYPE_CHECKING
 
 from litestar._openapi.schema_generation import SchemaCreator
 from litestar.enums import RequestEncodingType
-from litestar.openapi.spec import Example, Reference
 from litestar.openapi.spec.media_type import OpenAPIMediaType
 from litestar.openapi.spec.request_body import RequestBody
 from litestar.params import BodyKwarg
